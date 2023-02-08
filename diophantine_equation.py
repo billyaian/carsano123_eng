@@ -26,7 +26,7 @@ def diophantine(a: int, b: int, c: int) -> tuple[float, float]:
     (d, x, y) = extended_gcd(a, b)  # extended_gcd(a,b) function implemented below
     r = c / d
     return (r * x, r * y)
-
+def in(input())
 
 def diophantine_all_soln(a: int, b: int, c: int, n: int = 2) -> None:
     """
